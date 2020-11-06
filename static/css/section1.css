@@ -1,0 +1,120 @@
+#app{
+  font-family: 'Arial Narrow', 'Century Gothic', Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgb(30,87,153);
+  background: -moz-radial-gradient(center, ellipse cover,  #d84a4a 0%, #ba1919 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d84a4a), color-stop(100%,#ba1919));
+  background: -webkit-radial-gradient(center, ellipse cover,  #d84a4a 0%,#ba1919 100%);
+  background: -o-radial-gradient(center, ellipse cover,  #d84a4a 0%,#ba1919 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  #d84a4a 0%,#ba1919 100%);
+  background: radial-gradient(ellipse at center,  #d84a4a 0%,#ba1919 100%);
+
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+.quotes {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 75px; 
+}
+
+.q1, .q2, .q3{
+  display: none;
+  vertical-align: middle;
+}
+
+.verticalcenter {  
+  position: relative;  
+  top: 35%;
+  left: 40%;
+  -webkit-transform: translateY(-50%);  
+  -o-transform: translateY(-50%);  
+  transform: translateY(-50%);  
+}
+
+.main-section {
+  display: none;
+  font-family:'Arial Narrow', 'Century Gothic', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 512px;
+  height: 512px;
+  margin-left: -256px;
+  margin-top: -256px;
+  color: #ffffff;
+}
+
+
+#top {
+  width: 200px;
+  margin: auto;
+  position: relative;
+}
+#top span {
+  height: 350px;
+  position: absolute;
+  width: 20px;
+  left: 50%;
+  margin-left: -10px;
+  top: 110px;
+}
+.char1 {
+	transform: rotate(-36deg);
+}
+.char2 {
+	transform: rotate(-18deg);
+}
+.char3 {
+	transform: rotate(0deg);
+}
+.char4 {
+	transform: rotate(18deg);
+}
+.char5 {
+	transform: rotate(36deg);
+}
+
+#bottom span {
+  height: 350px;
+  line-height: 700px;
+  position: absolute;
+  width: 20px;
+  left: 50%;
+  margin-left: -10px;
+  top: 10px;
+}
+
+#bottom .char1 {
+	transform: rotate(18deg);
+}
+#bottom .char2 {
+	transform: rotate(0deg);
+}
+#bottom .char3 {
+	transform: rotate(-18deg);
+}
+
+.love {
+  font-family:"Hammersmith One";
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 2.0em;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+}
+
+
